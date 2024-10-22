@@ -30,3 +30,9 @@ void DataTransfer::unpackCSVData(const char* csvData, char* outputArray[], int& 
         token = strtok(NULL, ",");
     }
 }
+
+void DataTransfer::dataCollection()
+{
+    float temperature = analogRead(A0); // Mock sensor reading
+    float windSpeed = analogRead(A0);
+}

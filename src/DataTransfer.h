@@ -7,6 +7,7 @@ public:
     DataTransfer();
     void packDataToCSV(char* result, const char* data[], int length);
     void unpackCSVData(const char* csvData, char* outputArray[], int& length);
+    void dataCollection();
 };
 
 #endif
